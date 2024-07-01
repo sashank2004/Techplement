@@ -1,0 +1,90 @@
+.appbar{
+  border-bottom-style:dashed;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  height:50px;
+  padding: 5px;
+  padding-right: 10px;
+}
+.appbar-main{
+  display:flex;
+  align-items: center;
+}
+.logo{
+  margin-right: 10px;
+}
+.logo-img{
+  height: 40px;
+ /* max-width: 200px;
+  min-width: 150px;*/
+}
+.daily-quotes:hover{
+  color: orange;
+  cursor: pointer;
+}
+.search-icon{
+  cursor: pointer;
+}
+.search-img{
+ /* width:100%;
+  max-width:50px;*/
+  height: 50px;
+  border-radius: 25px;
+}
+.search-icon:hover{
+  color: orange;
+}
+.quote-heading{
+  padding:20px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  border-bottom-style: solid;
+  border-bottom-color: orange ;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 250px;
+  margin-right: 0.5rem;
+}
+
+button[type="submit"] {
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .daily-quotes {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 400px) {
+  .daily-quotes {
+    font-size: 1rem;
+  }
+  .logo-img {
+    height: 30px;
+  }
+  .search-img {
+    height: 25px;
+  }
+}

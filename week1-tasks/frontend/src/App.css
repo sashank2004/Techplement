@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 2rem;
+  color:white;
+  border-radius: 30px;
+  background-image: url('./images/background1.png');
+  background-size: cover;
+}
+
+.quote {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+@media (max-width: 600px) {
+  .quote {
+    font-size: 1rem;
+  }
+
+  button {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
